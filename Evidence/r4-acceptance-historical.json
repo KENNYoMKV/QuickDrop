@@ -1,0 +1,777 @@
+{
+  "version": "0.2.0-native-preview-r4",
+  "ready_for_user_testing": true,
+  "scope": "Current build handed over at user request; broader r4 editor/impact regression pass incomplete.",
+  "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+  "upstream": "fffd34ca8035582fa6307e8104c6a7cab350db18",
+  "game_build": 25414733,
+  "content_head": 625200,
+  "game_executable_sha256": "fbce74d5e28ef525dbba2cb4adbebc13405bdbd88f31bc940bca45e4ae88b8f9",
+  "checks": [
+    {
+      "name": "Low stock round rail: nosegrind and Smith, stationary/moving, fixed and disabled controls",
+      "recordings": [
+        "stock-nose",
+        "stock-moving-nose",
+        "stock-fixed-nose",
+        "stock-off-nose",
+        "stock-smith",
+        "stock-moving-smith",
+        "stock-fixed-smith",
+        "stock-off-smith"
+      ],
+      "metrics": {
+        "stock-nose": {
+          "token": 3,
+          "requested_trick": "nose",
+          "moving": false,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            -6.224489368378272e-09,
+            6.586313247680664e-06,
+            -2.001952225327841e-06,
+            1.0,
+            610.0001831054688,
+            198.74473571777344,
+            1089.0003662109375,
+            0.0
+          ],
+          "grind_frames": 35,
+          "grind_span_ms": 562,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 34,
+          "fixed_body": false,
+          "edge_continuity": true,
+          "moving_grind_frames": 0,
+          "rail_travel_during_grind_m": 0.0,
+          "contact_interruptions": 0,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            609.9755859375,
+            199.69140625,
+            1101.92822265625
+          ],
+          "rendered_trick": "BS Nose Grind",
+          "identity_evidence": "evidence/native/r4-release/stock-nose/014.jpg",
+          "identity_evidence_sha256": "2b2ba98327baf66d50685a0ba9e0c39b0596bfb518af80ec807a56f00332c94d"
+        },
+        "stock-moving-nose": {
+          "token": 3,
+          "requested_trick": "nose",
+          "moving": true,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.5715249546133236e-08,
+            6.556510925292969e-06,
+            -1.988567191801849e-06,
+            1.0,
+            610.0001220703125,
+            198.74473571777344,
+            1089.000244140625,
+            0.0
+          ],
+          "grind_frames": 48,
+          "grind_span_ms": 781,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 47,
+          "fixed_body": false,
+          "edge_continuity": true,
+          "moving_grind_frames": 27,
+          "rail_travel_during_grind_m": 0.5089602374650072,
+          "contact_interruptions": 0,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            610.11328125,
+            199.5631866455078,
+            1100.126708984375
+          ],
+          "rendered_trick": "BS Nose Grind",
+          "identity_evidence": "evidence/native/r4-release/stock-moving-nose/014.jpg",
+          "identity_evidence_sha256": "a0dc29a9441fcbc038a09d2ded7b914f5674398a7155c0362d3f7463897bce3e"
+        },
+        "stock-fixed-nose": {
+          "token": 3,
+          "requested_trick": "nose",
+          "moving": false,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            5.389416202206121e-08,
+            5.334616616892163e-06,
+            -2.007292550842976e-06,
+            1.0,
+            610.000244140625,
+            198.74533081054688,
+            1089.0,
+            null
+          ],
+          "grind_frames": 36,
+          "grind_span_ms": 578,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 0,
+          "fixed_body": true,
+          "edge_continuity": true,
+          "moving_grind_frames": 0,
+          "rail_travel_during_grind_m": 0.0,
+          "contact_interruptions": 0,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            609.9697265625,
+            199.69140625,
+            1101.7744140625
+          ]
+        },
+        "stock-off-nose": {
+          "token": 3,
+          "requested_trick": "nose",
+          "moving": false,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            5.389661339449958e-08,
+            6.55651138004032e-06,
+            -2.007292550842976e-06,
+            1.0,
+            610.0001220703125,
+            198.74473571777344,
+            1089.0,
+            0.0
+          ],
+          "grind_frames": 9,
+          "grind_span_ms": 266,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 9,
+          "fixed_body": false,
+          "edge_continuity": false,
+          "moving_grind_frames": 0,
+          "rail_travel_during_grind_m": 1.52587890625e-05,
+          "contact_interruptions": 8,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            610.059326171875,
+            199.69140625,
+            1102.2021484375
+          ]
+        },
+        "stock-smith": {
+          "token": 3,
+          "requested_trick": "smith",
+          "moving": false,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            8.658053616272809e-07,
+            -4.764658660860732e-05,
+            -9.367724942421773e-07,
+            1.0,
+            609.9998168945312,
+            198.74473571777344,
+            1089.0003662109375,
+            0.0
+          ],
+          "grind_frames": 37,
+          "grind_span_ms": 593,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 29,
+          "fixed_body": false,
+          "edge_continuity": true,
+          "moving_grind_frames": 0,
+          "rail_travel_during_grind_m": 0.0,
+          "contact_interruptions": 0,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            612.9999389648438,
+            199.74270629882812,
+            1100.5616455078125
+          ],
+          "rendered_trick": "BS Smith",
+          "identity_evidence": "evidence/native/r4-release/stock-smith/014.jpg",
+          "identity_evidence_sha256": "203af127dbf87df2d320b65542c2ab68742f751d2f1498b596228bb53bccc033"
+        },
+        "stock-moving-smith": {
+          "token": 3,
+          "requested_trick": "smith",
+          "moving": true,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            5.389661339449958e-08,
+            6.55651138004032e-06,
+            -2.007292550842976e-06,
+            1.0,
+            610.0001220703125,
+            198.74473571777344,
+            1089.0,
+            0.0
+          ],
+          "grind_frames": 49,
+          "grind_span_ms": 796,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 41,
+          "fixed_body": false,
+          "edge_continuity": true,
+          "moving_grind_frames": 26,
+          "rail_travel_during_grind_m": 0.4727946356674929,
+          "contact_interruptions": 0,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            612.4535522460938,
+            199.5604248046875,
+            1099.1944580078125
+          ],
+          "rendered_trick": "BS Smith",
+          "identity_evidence": "evidence/native/r4-release/stock-moving-smith/014.jpg",
+          "identity_evidence_sha256": "f6d9023f98674a0259ad94ae307fe7028b3300559dc2862df851de43c74b97ba"
+        },
+        "stock-fixed-smith": {
+          "token": 3,
+          "requested_trick": "smith",
+          "moving": false,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            9.112409316003323e-08,
+            -1.6003899872885086e-05,
+            8.902372428565286e-06,
+            1.0,
+            610.000244140625,
+            198.74533081054688,
+            1089.00048828125,
+            null
+          ],
+          "grind_frames": 37,
+          "grind_span_ms": 593,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 0,
+          "fixed_body": true,
+          "edge_continuity": true,
+          "moving_grind_frames": 0,
+          "rail_travel_during_grind_m": 0.0,
+          "contact_interruptions": 0,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            612.6701049804688,
+            199.5604248046875,
+            1099.572509765625
+          ]
+        },
+        "stock-off-smith": {
+          "token": 3,
+          "requested_trick": "smith",
+          "moving": false,
+          "disabled": false,
+          "item": "own_bkrails_generic_flatrailround_00001",
+          "start_rail_pose": [
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            9.864837835493745e-09,
+            6.623566150665283e-06,
+            -2.057247002085205e-06,
+            1.0,
+            609.9998779296875,
+            198.74473571777344,
+            1088.99951171875,
+            0.0
+          ],
+          "grind_frames": 9,
+          "grind_span_ms": 265,
+          "states": [
+            100,
+            103,
+            200,
+            201,
+            403,
+            504,
+            701
+          ],
+          "support_grind_frames": 9,
+          "fixed_body": false,
+          "edge_continuity": false,
+          "moving_grind_frames": 0,
+          "rail_travel_during_grind_m": 0.0,
+          "contact_interruptions": 8,
+          "start": [
+            610.0,
+            199.6937255859375,
+            1080.0
+          ],
+          "end": [
+            613.745361328125,
+            199.56044006347656,
+            1099.4903564453125
+          ]
+        }
+      }
+    },
+    {
+      "name": "Automatic marker membership, held RB, exclusion, re-pin pose capture, return and no dragging",
+      "recordings": [
+        "marker-full-fixture/excluded-save-return",
+        "marker-full-fixture/move",
+        "marker-full-fixture/move-again",
+        "marker-full-fixture/no-grab",
+        "marker-full-fixture/repin-hold",
+        "marker-full-fixture/repinned-return",
+        "marker-full-fixture/return",
+        "marker-full-fixture/save",
+        "marker-full-fixture/tap",
+        "marker-full-fixture/unpin-hold"
+      ],
+      "metrics": {
+        "passed": true,
+        "automatic_pins": 12,
+        "tap_ignored": true,
+        "one_toggle_per_hold": true,
+        "excluded_from_save_and_return": true,
+        "repin_captures_physical_pose": true,
+        "marker_controls": "Native hold Up save / tap Up return",
+        "included_props_dynamic": true,
+        "grabbing_removed": true
+      }
+    },
+    {
+      "name": "Native marker/physics/edge policy executable",
+      "result": "Dynamic QuickDrop marker/physics policy checks passed"
+    }
+  ],
+  "recordings": {
+    "stock-nose": {
+      "path": "evidence/native/r4-release/stock-nose",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "fbe5797c887129e83ad6ad19135f3abaafe4a988eb109a44a7576d3f8fddb35c",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "d14ebad028f630cd8a6efab4e602617d1ae2306fc17ecd0ad1fecc85f5fc61f5",
+        "summary.json": "29ca029db6c0e7f7dfdb05fe45d3c44bdd707fd195b5e9c3cc99f256f0efd1bd"
+      }
+    },
+    "stock-moving-nose": {
+      "path": "evidence/native/r4-release/stock-moving-nose",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [
+        [
+          3.5,
+          {
+            "token": 3,
+            "velocity": [
+              0,
+              0,
+              3
+            ]
+          }
+        ]
+      ],
+      "files": {
+        "input.json": "fbe5797c887129e83ad6ad19135f3abaafe4a988eb109a44a7576d3f8fddb35c",
+        "runtime.json": "3c1a14b7ace55d7f6afb0977e6d1d3c53154ee3fc88bf854742e7efbce02fe75",
+        "samples.json": "907e64864279506c44fbece6571b4e76ae64ed9b5b6e40befe830d95bd71e078",
+        "summary.json": "c55c6d15ab42be33639ab60dea27e382c87d5b23aa286e271505031cd2e4474a"
+      }
+    },
+    "stock-fixed-nose": {
+      "path": "evidence/native/r4-release/stock-fixed-nose",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "fbe5797c887129e83ad6ad19135f3abaafe4a988eb109a44a7576d3f8fddb35c",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "81b387bb8c6a6eaf440d34e8430b9cec77a5b390d33e4262d550d3c4f142c1db",
+        "summary.json": "88a1bab74db1b5dae39a9b08504b5df9820b71145879c87de533e9a013a70c27"
+      }
+    },
+    "stock-off-nose": {
+      "path": "evidence/native/r4-release/stock-off-nose",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "fbe5797c887129e83ad6ad19135f3abaafe4a988eb109a44a7576d3f8fddb35c",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "89f1e88c0f9fec19dd3f6fa0c9090fb319d162810608e68f1437a1b38d622cde",
+        "summary.json": "f8210f8a1f8cca4be0cbabb3506322d40c5886c1302b9e0515bec362c99f68c4"
+      }
+    },
+    "stock-smith": {
+      "path": "evidence/native/r4-release/stock-smith",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "8c9769b7a4b3b55af5e6c5edb4e422b897eb289ddc72546595ee7836c44bbcd5",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "c69f580cac961121cca1ce0c08e34408db02e1225659f26ac6af2f50fe2ae571",
+        "summary.json": "8ec4de03ce117b5ae51e278327fe9ea28323c5c742a9afda31248dd1b7ea7469"
+      }
+    },
+    "stock-moving-smith": {
+      "path": "evidence/native/r4-release/stock-moving-smith",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [
+        [
+          3.5,
+          {
+            "token": 3,
+            "velocity": [
+              0,
+              0,
+              3
+            ]
+          }
+        ]
+      ],
+      "files": {
+        "input.json": "8c9769b7a4b3b55af5e6c5edb4e422b897eb289ddc72546595ee7836c44bbcd5",
+        "runtime.json": "3c1a14b7ace55d7f6afb0977e6d1d3c53154ee3fc88bf854742e7efbce02fe75",
+        "samples.json": "061bb0ac6859a1e8cfb7c54373c2ac799d9c3b7e1d0c77718dd5132d66aeb465",
+        "summary.json": "c8ec56ed49a6bc510682bf3664de19625e8d13c3ac8d3adf1567ca120802bb21"
+      }
+    },
+    "stock-fixed-smith": {
+      "path": "evidence/native/r4-release/stock-fixed-smith",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "8c9769b7a4b3b55af5e6c5edb4e422b897eb289ddc72546595ee7836c44bbcd5",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "109b4c0c0bbeb773527fbed8151d9a2674c6e7c03367264ef88056a58ccba90d",
+        "summary.json": "05a7b6e81bfd0d94fe43b6b475cba05060867128b4b6a965efbe068177805b35"
+      }
+    },
+    "stock-off-smith": {
+      "path": "evidence/native/r4-release/stock-off-smith",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "8c9769b7a4b3b55af5e6c5edb4e422b897eb289ddc72546595ee7836c44bbcd5",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "a3960d61c4c8826e4a979a4c8980ce33369aa48706cd1b7537612ddf8d056def",
+        "summary.json": "13897e599bd104d376a6ab808efc781b4be9de56b1531bd4b620e7c1252d69b1"
+      }
+    },
+    "marker-full-fixture/excluded-save-return": {
+      "path": "evidence/native/r4-release/marker-full-fixture/excluded-save-return",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "29ab58c9dfad5ccf7d95db898189109298b6ed14fbdd47736ab1ed16f11ced2e",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "be44cdd44d22a9a9eceb185f74dac5cc8f271f6fda7ad1c5bff641b074098f17"
+      }
+    },
+    "marker-full-fixture/move": {
+      "path": "evidence/native/r4-release/marker-full-fixture/move",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": {
+        "token": 3,
+        "velocity": [
+          0,
+          0,
+          3
+        ]
+      },
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "d43f5b1754c38b5a79fa9fa8fef50788032a96fd0c83edcd3863dfd156426a21",
+        "runtime.json": "2833307e046b723efe337f1cd2b4125d6140d82a58c7d43845784ebead49fcd8",
+        "samples.json": "c6f218a37f5bcb8961c4798f4ce13dbd4d7e6adbb13457671b70e0430258c583"
+      }
+    },
+    "marker-full-fixture/move-again": {
+      "path": "evidence/native/r4-release/marker-full-fixture/move-again",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": {
+        "token": 3,
+        "velocity": [
+          0,
+          0,
+          3
+        ]
+      },
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "d43f5b1754c38b5a79fa9fa8fef50788032a96fd0c83edcd3863dfd156426a21",
+        "runtime.json": "2833307e046b723efe337f1cd2b4125d6140d82a58c7d43845784ebead49fcd8",
+        "samples.json": "35537c1a8983ad38ce7af8f77dcf00b0c75a27a2fb26b1cd6e989e9a8a8967ea"
+      }
+    },
+    "marker-full-fixture/no-grab": {
+      "path": "evidence/native/r4-release/marker-full-fixture/no-grab",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "16f1ad14f127175eb5a924bf43cbe43b29b66e2d30a5f230c3c288bf17916033",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "c255f75f85f550bb313bc36b4c6838e9e973a47995912deaa163f02ffdb7ed94"
+      }
+    },
+    "marker-full-fixture/repin-hold": {
+      "path": "evidence/native/r4-release/marker-full-fixture/repin-hold",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "81e84827c41b584b2ab023a4826b489e59d35c5d8fc9871898134f1b15505257",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "c836e31e9980551d873a927ae51847b9f33727df6bb0369d41d042603f0d32d6"
+      }
+    },
+    "marker-full-fixture/repinned-return": {
+      "path": "evidence/native/r4-release/marker-full-fixture/repinned-return",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "5600f83d76895df9889dd99f83137b1eabfa92165e793f2645b1040d82dc3581",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "a264c0824a2f551a58ffcc2b10565c1cd7061002d10951c2d7457cb9673d2764"
+      }
+    },
+    "marker-full-fixture/return": {
+      "path": "evidence/native/r4-release/marker-full-fixture/return",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "5600f83d76895df9889dd99f83137b1eabfa92165e793f2645b1040d82dc3581",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "01d1b49b9b2ddad3f94c5aece707bad6b9c1846a4a8807bf1e5a39d2feef12df"
+      }
+    },
+    "marker-full-fixture/save": {
+      "path": "evidence/native/r4-release/marker-full-fixture/save",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "91d5b4a1265b5c93f7b1619d5e9887eb648332df0e33d513dde1d952702bf0cb",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "0913d54d4065dcac6c690c6595d8669c32eb7e97c9eb611380271b6c7f090500"
+      }
+    },
+    "marker-full-fixture/tap": {
+      "path": "evidence/native/r4-release/marker-full-fixture/tap",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "0b0e8ebf6a2080ebc4ec20c429b4b012c9cbb0b9daa6642b1e973d8a89804b9b",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "b046eb09ac248a068387d434b2f6644ed2f61f5b2cdc8e89f7e8a37cc2441ffa"
+      }
+    },
+    "marker-full-fixture/unpin-hold": {
+      "path": "evidence/native/r4-release/marker-full-fixture/unpin-hold",
+      "pid": 8344,
+      "executable": "C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\dynamic-quickdrop-playtest\\game\\Skate.exe",
+      "runtime_sha256": "18ff4eb8549f811e9f56740cd5189f998e64004a248b3c7c89160992f44b8831",
+      "setup": null,
+      "setup_at": null,
+      "schedule": [],
+      "files": {
+        "input.json": "aab55ac9a6db2cd6f7db1265aa42c3aa6e8a3d5d9b610aa62441cae86ee6824c",
+        "runtime.json": "757661251c0a9fddb4cb35e2c945f3d359adc770376fe9c16e65dfaefae13c88",
+        "samples.json": "3b61dbe67abe2d036796dc0dccd08b7b63c3ec39876ec470523a7b4203d0510d"
+      }
+    }
+  },
+  "screenshots": [
+    "evidence/native/r4-release/stock-nose/014.jpg",
+    "evidence/native/r4-release/stock-moving-nose/014.jpg",
+    "evidence/native/r4-release/stock-smith/014.jpg",
+    "evidence/native/r4-release/stock-moving-smith/014.jpg"
+  ],
+  "artifact_sha256": {
+    "evidence/native/r4-marker-build.log": "98281eb8a5ce0ba7cd6f39cc9ff8b608a7420d7dd37aa6df77378e02e714e745",
+    "evidence/native/r4-policy-check.json": "d6d9e5eec58ccce9e3da533679b8f437598443f925820434c8390e3efb2107e1",
+    "evidence/native/skate3-asset-audit.json": "f346e590fb5246e90877d98bfd9bb7d55ae97f5e2dd1651fdfc3fe508cef0f1b",
+    "dist/validation.json": "6c984c4afb40076d98c087e8b72e0e0b28e50fd094f38749dd09faff1478000d",
+    "evidence/native/r4-release/marker-full-fixture/summary.json": "3a1c48dec4a91a6bcbc72effbef2d3d32c213583db2ee5e8721f3e9ecc2300fc",
+    "native/Install.ps1": "7876cd1317c795b96ca974c5277665fd7a3d63c6d50e402557cf54627877295b"
+  },
+  "remaining_acceptance": [
+    "R4 live editor commit/cancel, weighted-impact and preference-reload regressions not completed.",
+    "Imported-rail named tricks and sustained downhill trashcan-lid stalls not established.",
+    "Grouped edits, controller hardware/reconnect, remapped inputs and multiplayer not live-verified in r4."
+  ],
+  "excluded_attempts": [
+    "Tall imported black rail was unsuitable for the scripted approach; user requested the lower rail.",
+    "Source-executable runs loaded only five stock props; complete 12-prop checks use the corrected private executable."
+  ],
+  "historical_installer_note": "Unchanged installer has r3 install/uninstall smoke evidence; no new r4 installer smoke run."
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "runtime_sha256": "1366580c9c6108147c243c5e5c23e12f99c4dd45c74cf0cfa5215b3813b548a5",
+  "installer_sha256": "db3e6123ec84a7e90a664aa4294346bcc7d2413e728551f2a52e74f3cf7ca258",
+  "checks": [
+    "fresh install/uninstall",
+    "nested Dynamic/Favorites migration",
+    "one enabled mod entry",
+    "original runtime, files and installation-record restoration",
+    "unrelated later settings and mods preserved"
+  ],
+  "output": [
+    {
+      "layered": false,
+      "uninstall": false,
+      "returncode": 0,
+      "stdout": "Installed and enabled one Dynamic_QuickDrop mod. Insert > Addons > Dynamic QuickDrop > Physics / Marker / Favorites.\nExisting favorites and physics preferences are preserved. Standalone Favorites files and installation records are archived in the backup.\nKeep launcher runtime updates OFF while testing: an update replaces this custom DLL. The previous update setting is restored on uninstall.\nOriginal files retained in C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\quickdrop-combined-installer-1792724617888648100\\fresh\\DynamicQuickDrop-backup\\20261022-230339-495\n",
+      "stderr": ""
+    },
+    {
+      "layered": false,
+      "uninstall": true,
+      "returncode": 0,
+      "stdout": "Restored the previous runtime and QuickDrop installation. Backups and saved favorites retained.\n",
+      "stderr": ""
+    },
+    {
+      "layered": true,
+      "uninstall": false,
+      "returncode": 0,
+      "stdout": "Installed and enabled one Dynamic_QuickDrop mod. Insert > Addons > Dynamic QuickDrop > Physics / Marker / Favorites.\nExisting favorites and physics preferences are preserved. Standalone Favorites files and installation records are archived in the backup.\nKeep launcher runtime updates OFF while testing: an update replaces this custom DLL. The previous update setting is restored on uninstall.\nOriginal files retained in C:\\Users\\Kenny\\AppData\\Local\\Temp\\opencode\\quickdrop-combined-installer-1792724617888648100\\layered\\DynamicQuickDrop-backup\\20261022-230341-636\n",
+      "stderr": ""
+    },
+    {
+      "layered": true,
+      "uninstall": true,
+      "returncode": 0,
+      "stdout": "Restored the previous runtime and QuickDrop installation. Backups and saved favorites retained.\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "version": "0.3.0-combined-preview",
+  "installer_revision": 4,
+  "upstream": "fffd34ca8035582fa6307e8104c6a7cab350db18",
+  "ready_for_user_testing": true,
+  "checks": [
+    {
+      "name": "MSVC x64 Release runtime with unified Physics / Marker / Favorites menu",
+      "passed": true
+    },
+    {
+      "name": "Favorites category ordering, exact variants, missing assets and removal",
+      "passed": true
+    },
+    {
+      "name": "Favorites profile persistence, reopening and profile isolation",
+      "passed": true
+    },
+    {
+      "name": "Marker membership, held-input rearming, physics and edge transform policies",
+      "passed": true
+    },
+    {
+      "name": "Fresh and layered installation/uninstallation",
+      "passed": true,
+      "cases": [
+        "fresh install/uninstall",
+        "nested Dynamic/Favorites migration",
+        "one enabled mod entry",
+        "original runtime, files and installation-record restoration",
+        "unrelated later settings and mods preserved"
+      ]
+    }
+  ],
+  "live_checks": [],
+  "historical_live_evidence": "Evidence/r4-acceptance-historical.json",
+  "remaining_acceptance": [
+    "Combined menu and Favorites native category rendering/placement require in-game user verification.",
+    "Earlier r4 grind/marker recordings use the r4 runtime; no new live sessions were run for this consolidation.",
+    "Outstanding r4 editor/impact regressions, imported named grinds, downhill-lid stalls and multiplayer remain unverified."
+  ],
+  "runtime_sha256": "1366580c9c6108147c243c5e5c23e12f99c4dd45c74cf0cfa5215b3813b548a5",
+  "native_build": "MSVC x64 Release /W4 /WX, succeeded",
+  "automated_checks": "Passed: marker/physics/edge policies; Favorites category ordering, exact variants and profile persistence; unified install, layered upgrade and uninstall restoration",
+  "asset_payloads": 558,
+  "package_files": {
+    "asset-validation.json": "6c984c4afb40076d98c087e8b72e0e0b28e50fd094f38749dd09faff1478000d",
+    "Dynamic_QuickDrop/.reskate-studio-patch": "7251fea422094e6868c47471d14dd268819dc084e04e0778c48d2451242b591d",
+    "Dynamic_QuickDrop/initfs_win32": "b73e95d63933f2e75fca464bc91c00d99c53e23fb392113d868b8379f975eae4",
+    "Dynamic_QuickDrop/layout.toc": "ca1a8c1a8f0d58be15fd82787231783d071b744f77e9cb84e6abcc5201bc22f0",
+    "Dynamic_QuickDrop/manifest.json": "e499fe9ed2ed5b4c7ee651b70c94d61c3466393ab18349078e45205ef23be13d",
+    "Dynamic_QuickDrop/README.md": "eddf05de4cb97c955c8923290b0d8dd0efe873a76aae87e70eb067783eb78285",
+    "Dynamic_QuickDrop/Win32/buildkititems.toc": "fefb63934dd8f020f5931ac44d3ed59187871b0cebead04f6543faf265892be0",
+    "Dynamic_QuickDrop/Win32/configurations/layout/defaultinstallpackage/cas_01.cas": "41daf43f3d290edacc2bf8285a3bbb2981c9134b48c67a6468e6193e61e2aaf3",
+    "Dynamic_QuickDrop/Win32/configurations/layout/initialinstallpackage/cas_01.cas": "3a078ce5aa2059c938fefbfe1529b4b94c13ba02dc6691e722d7483863eb25c0",
+    "Dynamic_QuickDrop/Win32/levels/game/bam_levelroot/bam_levelroot.toc": "4ea0430baea37354b683207024678b22a9d64fd67d0b69d1eb5a13293e97af3a",
+    "Dynamic_QuickDrop/Win32/levels/game/dingolevel_root/dingolevel_root.toc": "2689fe2ccb02370c7266e0e86fb46917b5334192e024cb4cae332bba1fa91458",
+    "Dynamic_QuickDrop/Win32/levels/game/dingolevel_splash/dingolevel_splash.toc": "55cc6c6e6a177b2d35a2aba3deb56b925bd45e095599d1df44b4a11c69e5ec0e",
+    "Evidence/acceptance.json": "ff71bb6200de411ab3eff70860599848986cd072f1973e2a5446d087aea7b407",
+    "Evidence/automated-checks.json": "338c771c1bc69b4262671a7599ac1d470354120789f8f01009dc2d8e56abe054",
+    "Evidence/installer-smoke.json": "4580d7112219e2919c6afc98b11688033e6177b22fab2228f86ac7a7b8732b73",
+    "Evidence/r4-acceptance-historical.json": "c1ee6163675bbe97ba9b8e97adc23e5f583522f741aa5b804c378da9a0a1ac26",
+    "Install.ps1": "db3e6123ec84a7e90a664aa4294346bcc7d2413e728551f2a52e74f3cf7ca258",
+    "LICENSE-ReSkate.txt": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+    "NATIVE-PLAYTEST.md": "90b21a0c20df85398f0ec61af7b7c1dbab577869a200be931837dde9eca28108",
+    "README.md": "183ab858e542fa182659745eca0c8f91a6f3d3fe89ba6faf608c545681f541bc",
+    "Runtime/ReSkate.dll": "1366580c9c6108147c243c5e5c23e12f99c4dd45c74cf0cfa5215b3813b548a5",
+    "Source.zip": "b13fcfd8c33ee4e2062d5d3eaaf3c1464cbfbf67f10ef781a4f17085035c1b94"
+  }
+}

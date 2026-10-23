@@ -1,0 +1,66 @@
+{
+  "version": "0.3.0-combined-preview",
+  "ready_for_user_testing": true,
+  "scope": "Menu/package consolidation; current automated checks and separately labeled historical gameplay evidence.",
+  "runtime_sha256": "1366580c9c6108147c243c5e5c23e12f99c4dd45c74cf0cfa5215b3813b548a5",
+  "game_build": 25414733,
+  "content_head": 625200,
+  "upstream": "fffd34ca8035582fa6307e8104c6a7cab350db18",
+  "checks": [
+    {
+      "name": "MSVC x64 Release runtime with unified Physics / Marker / Favorites menu",
+      "passed": true
+    },
+    {
+      "name": "Favorites category ordering, exact variants, missing assets and removal",
+      "passed": true
+    },
+    {
+      "name": "Favorites profile persistence, reopening and profile isolation",
+      "passed": true
+    },
+    {
+      "name": "Marker membership, held-input rearming, physics and edge transform policies",
+      "passed": true
+    },
+    {
+      "name": "Fresh and layered installation/uninstallation",
+      "passed": true,
+      "cases": [
+        "fresh install/uninstall",
+        "nested Dynamic/Favorites migration",
+        "one enabled mod entry",
+        "original runtime, files and installation-record restoration",
+        "unrelated later settings and mods preserved"
+      ]
+    }
+  ],
+  "recordings": {},
+  "retained_r4_physics_sources": {
+    "Extension/Objects/dynamic_quickdrop.cpp": "55ecf012c7fb7ad9f3385e29b7e232fc8dcdc2102db8891e74726ab324587f8d",
+    "Extension/Objects/dynamic_quickdrop.h": "5fa8653cb2fccb37b3cf69a293b269c7d7e39d143861ad6bcf508f69454a4fb9",
+    "Extension/Objects/dynamic_quickdrop_dropper.h": "08e737a7a5312bb358b817d5e3eef3515dcfc2af9521a7bda30b68a88fdc27e0",
+    "Extension/Objects/dynamic_quickdrop_edges.h": "ba2f1741dc31d6424cc0554785c064aa948a7b2fe2072fdb68501e2ce460e294",
+    "Extension/Objects/dynamic_quickdrop_marker.h": "a010970ac265c181cedd98482e2bdacc9c0d95331d9cc667cf46f09b71a1f83c",
+    "Extension/Objects/dynamic_quickdrop_math.h": "66ac99a53b2073fd7869019416b05bd2e5b41099caed0bb31efb8c0b51ebc329",
+    "Extension/Objects/dynamic_quickdrop_objects.h": "300b3bab48843c988760086c1b3fe024c087c90a37d53d17eddefbe0585af7dd",
+    "Extension/Objects/dynamic_quickdrop_playtest.h": "b0dfa9f7fee952f5378f0b10341c03982d3c96ac7f98674b8eddc47e9c588cd7",
+    "Extension/Objects/dynamic_quickdrop_policy.h": "567a0d06a416def971d3676ab8d4a11609eae967a604093765f33a5240087883",
+    "Extension/Objects/dynamic_quickdrop_prompt.cpp": "c072c6d937b8322a5af450f8efd1ee851172fe14ed9d0fecd2710888b7829078",
+    "Extension/Objects/dynamic_quickdrop_prompt.h": "d24cd5fd7f0d6582394cc0e28839f2b0a15cf6705b56b2d5a9c711726adfc535",
+    "Extension/Objects/dynamic_quickdrop_surfaces.h": "d184223032989b9a2680a96463e31332cf824c73ef89aed55a70ff4c35205870"
+  },
+  "historical_gameplay_evidence": "Evidence/r4-acceptance-historical.json",
+  "artifact_sha256": {
+    "evidence/native/combined-0.3-build.log": "986fcdd7e3d1e6994286c5a5b0ade18004f1b90967629a0be093b4229f951338",
+    "evidence/native/combined-0.3-installer-smoke.json": "4580d7112219e2919c6afc98b11688033e6177b22fab2228f86ac7a7b8732b73",
+    "evidence/native/combined-0.3-checks.json": "338c771c1bc69b4262671a7599ac1d470354120789f8f01009dc2d8e56abe054",
+    "native/Install.ps1": "db3e6123ec84a7e90a664aa4294346bcc7d2413e728551f2a52e74f3cf7ca258",
+    "dist/validation.json": "6c984c4afb40076d98c087e8b72e0e0b28e50fd094f38749dd09faff1478000d"
+  },
+  "remaining_acceptance": [
+    "Combined menu and Favorites native category rendering/placement require in-game user verification.",
+    "Earlier r4 grind/marker recordings use the r4 runtime; no new live sessions were run for this consolidation.",
+    "Outstanding r4 editor/impact regressions, imported named grinds, downhill-lid stalls and multiplayer remain unverified."
+  ]
+}
