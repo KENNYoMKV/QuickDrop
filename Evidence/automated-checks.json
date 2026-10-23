@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "runtime_sha256": "1366580c9c6108147c243c5e5c23e12f99c4dd45c74cf0cfa5215b3813b548a5",
+  "build_log_sha256": "986fcdd7e3d1e6994286c5a5b0ade18004f1b90967629a0be093b4229f951338",
+  "tests": [
+    {
+      "executable": "dingosdk_object_categories_tests.exe",
+      "sha256": "311db0268c21a7441e023a0cae0b50ce576eb918707dcac51852ca22a723b197",
+      "passed": true
+    },
+    {
+      "executable": "dingosdk_profile_change_tests.exe",
+      "sha256": "c131dcedbc0e50a78269dfa7b0192b0c5d06023b147ec759ffd00a345d8474ad",
+      "passed": true
+    },
+    {
+      "executable": "dynamic_quickdrop_tests.exe",
+      "sha256": "df3d63f929e252e185eb2a6f5f164344a59a88ca07294ddc23ab4ea8276d83ca",
+      "passed": true
+    }
+  ]
+}
